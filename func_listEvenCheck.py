@@ -3,7 +3,6 @@ def listEvenCheck(mylist = []):
     for n in mylist:
        if n%2==0:
            myEven.append(n)
-        
        else: pass
     return myEven
 

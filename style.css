@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+.heading{
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    text-align: center;
+    font-family: gothic;
+    letter-spacing: 0.1em;
+    transition: 0.3s;
+    text-shadow: 1px 1px 0 rgb(255, 255, 255);
+}
+.heading:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    text-shadow: rgba(0, 0, 0, 0.192) rgba(0, 0, 0, 0.575) rgba(0, 0, 0, 0.775) rgba(0, 0, 0);
+}
+
+body {
+    padding: 3.5%;
+    background-color: rgba(195, 41, 241, 0.5);
+}
+.pyname{
+    font-size: 1.3rem;
+    font-family: 'Courier New', monospace;
+    color: #000;
+    font-weight: bolder;
+    text-align: center;
+    margin-right: .8rem;
+    text-decoration: none;
+}
+.container{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.2);
+    display: flex;
+    background: rgba(255, 255, 255, 0.952);
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1.9rem;
+    color: #000;
+}
+.column{
+    float: left;
+    width: 15%;
+    padding: 7px 11px;
+    display: block;
+}
+
+.row{
+    display: table;
+    clear: both;
+}
